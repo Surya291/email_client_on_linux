@@ -1,4 +1,4 @@
-# email_client_on_linux
+# mutt : email_client_on_linux
 Instructions to setup mutt email to access emails via console
 
 This is a comprehensive set of instructions to setup mutt on your ubuntu 
