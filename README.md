@@ -63,8 +63,9 @@ If we are using google two-factor authentication, to be able to access our gmail
   
   
  Step 05 :  Stop reading this and start using mutt :) by the following cmd
+ ```
  $mutt
-
+```
   
   Note  : 
   1)  $ refers to terminal commands , only the after $ should be entered !!
