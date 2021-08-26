@@ -4,20 +4,20 @@ Instructions to setup mutt email to access emails via console
 This is a comprehensive set of instructions to setup mutt on your ubuntu 
 
 Step 01 : Install mutt 
-
+```
 $ sudo apt-get install mutt
-
+```
 Step 02 : Create and edit the congif file 
 Create a directory ".mutt" by :
-
+```
 $ mkdir .mutt
-
+```
 Step 03 :Navigate to the .mutt directory and create a muttrc file (which acts as a config file for mutt). Do it by the following commands :
-
+```
 $ vim muttrc
-
+```
 Step 04: Paste the following contents in the muttrc file . After done type :wq to write and quit vim editor
-
+```
 #### Starts for here !!!
 
 set from = "test@iith.ac.in"   
@@ -53,7 +53,7 @@ set editor='vim'
 :wq
 
 #### Ends here !!!
-  
+```  
   
 Note  : Generating an app-specific-password for Mutt
 
