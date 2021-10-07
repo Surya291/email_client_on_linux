@@ -66,11 +66,34 @@ If we are using google two-factor authentication, to be able to access our gmail
  ```
  $mutt
 ```
-  
+## Customizations ..
+
+### Making mutt look pretty (Color templates)
+mutt in its vanilla version looks uncoool. For all the people who want their mutt to look good . Consider implementing the following color templates. 
+
+Step 06 : Pick a template (you can find one in the mutt-color-template dir) of your choice. 
+Make sure you download the directory and place it in the same directory as yout muttrc file. Add the source to your muttrc file . 
+```
+source mutt-color-templates/dark-16.muttrc
+```
+
+### Creating a desktop shortcut (exclusively for slothbears)
+One might find it tiring to open a terminal and type a 4 letter cmd "mutt". Nevertheless if you want to open the terminal based email client with a click on your desktop , you can do that...
+
+Step 06 : Create a .desktop file and paste the contents in it. Give necessary permissions for it .
+You can find the .desktop file in this repository.
+
+### Setting your offline email : <TODO>
+The basic version of mutt looks at the servers on the internet to create cache and that forces you to have an internet connection to use mutt... until this !!!
+
+
+
   Note  : 
   1)  $ refers to terminal commands , only the after $ should be entered !!
   
-  References  : 
-  https://linuxconfig.org/how-to-install-configure-and-use-mutt-with-a-gmail-account-on-linux
-  https://www.youtube.com/watch?v=CxPQ_IVLYvM
+  References / resources : 
+  https://linuxconfig.org/how-to-install-configure-and-use-mutt-with-a-gmail-account-on-linux \
+  https://www.youtube.com/watch?v=CxPQ_IVLYvM \
+  FOr color templates : https://github.com/altercation/mutt-colors-solarized
+  
 
