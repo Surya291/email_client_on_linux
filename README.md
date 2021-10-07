@@ -83,7 +83,7 @@ One might find it tiring to open a terminal and type a 4 letter cmd "mutt". Neve
 Step 06 : Create a .desktop file and paste the contents in it. Give necessary permissions for it .
 You can find the .desktop file in this repository.
 
-### Setting your offline email : <TODO>
+### Setting your offline email : {TODO}
 The basic version of mutt looks at the servers on the internet to create cache and that forces you to have an internet connection to use mutt... until this !!!
 
 
