@@ -1,4 +1,4 @@
-# mutt : email_client_on_linux
+# mutt : email_client that sucks less :)
 Instructions to setup mutt email to access emails from your terminal. 
 
 This is a comprehensive set of instructions to setup mutt on your ubuntu 
